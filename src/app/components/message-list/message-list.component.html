@@ -1,0 +1,12 @@
+<!-- <p>message-list works!</p> -->
+
+<!-- <ul data-test="message-list">
+  <li>message 1</li>
+  <li>message 2</li>
+  <li>message 3</li>
+</ul> -->
+
+<h1>Message List</h1>
+<ul class="messages-div" data-test="message-list">
+  <li *ngFor="let message of messageList">{{message['title']}}</li>
+</ul>
